@@ -14,7 +14,7 @@ Process them and extract different meta data
 Display the high power signal on the console and give a warning (beep) in case
 any frequency exceed the desired power defined when the RF Central application starts ( command line input)
 This application does not contain a Machine Learning Model.
-Signal Meta Data Extraction is done by ** RF Analysis Engine**
+Signal Meta Data Extraction is done by **RF Analysis Engine**
 
 |rf_central|
 |rf_central_console|

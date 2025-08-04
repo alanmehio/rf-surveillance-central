@@ -25,9 +25,9 @@ Note: Check the devicemanager from control panel for the port name
 '''
 import platform
 from argparse import ArgumentParser, Namespace
-from .receiver import Receiver
-from .displayer import ConsoleOutput
-from .broker import DataBroker
+from rfcentral.receiver import Receiver
+from rfcentral.displayer import ConsoleOutput
+from rfcentral.broker import DataBroker
 
 def get_cli_value()->tuple[float,float,str]:
    pass

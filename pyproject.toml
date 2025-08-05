@@ -67,7 +67,7 @@ dependencies = [
 
 ## optional dependency for test or other purpose 
 ## Install in edit mode with the test dependencies 
-## $ pip install -e . rfnode[test]
+## $ pip install -e . rfcentral[test]
 [project.optional-dependencies]
 test = [
   "pytest (>=8.4.0); python_version >='3.9' and python_version <='3.14'",
@@ -126,9 +126,9 @@ exclude = [
 
 
 #https://python-poetry.org/docs/pyproject/#scripts
-# we will have the rfnode, rfcentral and rfsink  script installed which will execute the main function in the console module in the dmcview package.
+# we will have the rfcentral, rfcentral and rfsink  script installed which will execute the main function in the console module in the dmcview package.
 [project.scripts]
-rfnode = 'rfnode.main:main'
+rfcentral = 'rfcentral.main:main'
 rfcentral = 'rfcentral.main:main'
 
 [tool.poetry.extras] #see https://realpython.com/dependency-management-python-poetry/
@@ -191,7 +191,7 @@ ignore = [
 # see scripts/parse_version.py 
 # we need to update in toml file above  and below also
 [tool.software-release]
-version_variable = "src/rfnode/__init__.py:__version__"
+version_variable = "src/rfcentral/__init__.py:__version__"
 
 
 

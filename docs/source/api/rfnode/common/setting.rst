@@ -1,4 +1,4 @@
-.. automodule:: rfnode.common.setting
+.. automodule:: rfcentral.common.setting
    :members:
    :undoc-members:
    :show-inheritance:

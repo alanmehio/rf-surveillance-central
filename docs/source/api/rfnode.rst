@@ -1,7 +1,7 @@
 API
 ===
 
-.. automodule:: rfnode
+.. automodule:: rfcentral
    :members:
    :undoc-members:
    :show-inheritance:
@@ -10,12 +10,12 @@ API
 .. toctree::
    :maxdepth: 2
 
-   rfnode/broker
-   rfnode/devicemanager
-   rfnode/main
-   rfnode/scanner
-   rfnode/version
-   rfnode/common
-   rfnode/sender
-   rfnode/model
+   rfcentral/broker
+   rfcentral/devicemanager
+   rfcentral/main
+   rfcentral/scanner
+   rfcentral/version
+   rfcentral/common
+   rfcentral/sender
+   rfcentral/model
 

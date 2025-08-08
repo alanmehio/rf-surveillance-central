@@ -1,4 +1,4 @@
-.. automodule:: rfnode.devicemanager
+.. automodule:: rfcentral.devicemanager
    :members:
    :undoc-members:
    :show-inheritance:

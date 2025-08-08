@@ -1,7 +1,7 @@
 common
 ------
 
-.. automodule:: rfnode.common
+.. automodule:: rfcentral.common
    :members:
    :undoc-members:
    :show-inheritance:

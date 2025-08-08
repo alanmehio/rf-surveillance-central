@@ -1,4 +1,4 @@
-.. automodule:: rfnode.common.log_manager
+.. automodule:: rfcentral.common.log_manager
    :members:
    :undoc-members:
    :show-inheritance:

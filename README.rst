@@ -17,6 +17,9 @@ This application does not contain a Machine Learning Model.
 Signal Meta Data Extraction is done by **RF Analysis Engine**
 
 |rf_central|
+
+| RF Central displaying radio frequency data; red data which exceed the power threshold
+
 |rf_central_console|
 
 
@@ -54,9 +57,9 @@ License
 .. Build Status
 .. Github Actions: Test Workflow Status for specific branch <branch>
 
-.. |build| image::  https://github.com/alanmehio/rf-surveillance-node/actions/workflows/ci_cd.yaml/badge.svg
+.. |build| image::  https://github.com/alanmehio/rf-surveillance-central/actions/workflows/ci_cd.yaml/badge.svg
     :alt: GitHub Workflow Status (branch)
-    :target: https://github.com/alanmehio/rf-surveillance-node/actions
+    :target: https://github.com/alanmehio/rf-surveillance-central/actions
 
 
 .. Documentation
@@ -113,8 +116,9 @@ License
 .. Local Image as link
 
 .. |rf_central| image:: https://github.com/alanmehio/rf-surveillance-central/blob/main/media/rf-central.jpeg
-                :alt: RF Surveillance Central(Server)
-.. |rf_central_console| image:: https://github.com/alanmehio/rf-surveillance-central/blob/main/media/screen/rf-central-console.gif
-                :alt: RF Surveillance Central(Server) console output
+    :alt: RF Surveillance Central(Server)
+
+.. |rf_central_console| image:: https://github.com/alanmehio/rf-surveillance-central/rf-surveillance-central/blob/main/media/screen/rf-central-console.gif
+    :alt: RF Surveillance Central(Server) console output
 
 

@@ -1,4 +1,4 @@
-.. automodule:: rfnode.sender.sender
+.. automodule:: rfcentralral.sender.sender
    :members:
    :undoc-members:
    :show-inheritance:

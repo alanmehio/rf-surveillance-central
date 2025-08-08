@@ -115,10 +115,10 @@ License
 
 .. Local Image as link
 
-.. |rf_central| image:: https://github.com/alanmehio/rf-surveillance-central/blob/main/media/rf-central.jpeg
+.. |rf_central| image:: https://raw.githubusercontent.com/alanmehio/rf-surveillance-central/blob/main/media/rf-central.jpeg
     :alt: RF Surveillance Central(Server)
 
-.. |rf_central_console| image:: https://github.com/alanmehio/rf-surveillance-central/blob/main/media/screen/rf-central-console.gif
+.. |rf_central_console| image:: https://raw.githubusercontent.com/alanmehio/rf-surveillance-central/blob/main/media/screen/rf-central-console.gif
     :alt: RF Surveillance Central(Server) console output
 
 

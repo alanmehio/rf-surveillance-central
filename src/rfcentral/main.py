@@ -1,27 +1,11 @@
-
 '''
-A- Make the project in edit mode
-$ pwd
-/home/alan/workspace-python/RTL-SDR/rf-surveillance
-$ pip install -e .
-$ rfcentral -p 65.55 -d ttyACM0
+| Make the project in edit mode
 
-//////////////////////////////////////////
+>>>  pip install -e .
 
-B- Using PYTHONPATH (Not recommended)
-Linux:
-=====
-$ export PYTHONPATH=/home/alan/workspace-python/RTL-SDR/rf-surveillance/src
-$ pwd
- /home/alan/workspace-python/RTL-SDR/rf-surveillance/src
-$ python rfcentral -p 65.55 -d ttyACM0
+>>> rfcentral -p 65.55 -d ttyACM0
 
-Windows:
-=======
-set PYTHONPATH=/home/alan/workspace-python/RTL-SDR/rf-surveillance/src
-echo %PYTHONPATH%
-python rfcentral  -p 65.55 -d COM4
-Note: Check the devicemanager from control panel for the port name
+| Note: Check the devicemanager from control panel for the port name
 '''
 import platform
 from argparse import ArgumentParser, Namespace

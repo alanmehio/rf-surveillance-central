@@ -12,8 +12,8 @@ Development
 
 .. code-block:: shell
 
-    git clone git@github.com:alanmehio/rf-surveillance-node.git
-    cd  rf-surveillance-node
+    git clone git@github.com:alanmehio/rf-surveillance-central.git
+    cd  rf-surveillance-central
 
 | Make the project in edit mode
 
@@ -25,7 +25,7 @@ Then, for any changes in the code you can execute it from command line
 
 .. code-block:: shell
 
-   rfcentralral  setting.json -vvv -ld /home/alan/tmp
+   rfcentral -p 65.55 -d ttyACM0
 
 
 

@@ -1,7 +1,7 @@
-sender
-------
+receiver
+--------
 
-.. automodule:: rfcentral.sender
+.. automodule:: rfcentral.receiver
    :members:
    :undoc-members:
    :show-inheritance:
@@ -10,4 +10,3 @@ sender
 .. toctree::
    :maxdepth: 2
 
-   sender/sender

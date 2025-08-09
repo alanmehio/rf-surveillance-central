@@ -17,7 +17,7 @@ build/
 htmlcov/
 
 .tox/
-node_modules
+central_modules
 
 dependency-graphs/
 test-results/

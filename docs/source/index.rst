@@ -1,14 +1,12 @@
-RF Surveillance Node
-====================
+RF Surveillance Central
+=======================
 
 COMMUNITY VERSION
 -----------------
 
-| Welcome to the RF Surveillance Node one of four inter-related application suite
-| RF Node is about scanning existing range of radio frequency and sending the data to the RF Central. RF Node works in a plug and play which means unlimited
- devices can be connected such as RTL-SDR or other  radio frequency device reader
- | High quality SDR devices (RTL-SDR, USRP, BladeRF, HackRF etc..) can be attached to read QAM data at a much higher pre-configured rate. Sample size can be changed also
-   from a setting file
+| Welcome to the RF Surveillance Central one of four inter-related application suite
+| RF Central is AI RF model to extra Radio Frequency Meta Data and to find identify radio frequency fingers print. RF Central works in a plug
+  and play which means unlimited nodes  can be sent RF data over a given range and a given payload for analysis in real time
 
 .. tutorial: https://www.sphinx-doc.org/en/master/tutorial/getting-started.html
 .. extension autodoc: https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html
@@ -34,7 +32,6 @@ COMMUNITY VERSION
 
    contents/development
    contents/changelog
-   contents/contributing
    contents/code_of_conduct
 
 .. toctree::

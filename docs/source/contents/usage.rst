@@ -14,22 +14,20 @@ Assuming you have 'activated' a `python virtual environment`:
 
 .. code-block:: shell
 
-  python -m pip install rfcentralral
+  python -m pip install rfcentral
 
 
 ---------------
 Simple Use Case
 ---------------
 
-| Plugin in RTLSDR from  `Nooelec <https://www.nooelec.com/store/sdr/sdr-receivers/nesdr-smart-sdr.html?srsltid=AfmBOoqFB5e2jf1fsd1I9xCGV9Pz6WiBdZD2RNyXnFQp5zjB3nGYRtPX>`__
-
 .. code-block:: shell
 
-  rfcentralral  setting.json -vvv -ld /home/alan/tmp
-  **setting.json**  the setting file for frequency range and power threshold
-| **vvv**: extra verbose
-| **ld**: log file directory location
-|
+  rfcentral -p 65.55 -d ttyACM0
+
+| **p**  power threshold to sent alarm to the RF server
+| **d**: RF receiver device port name
+
 
 
 
@@ -40,7 +38,7 @@ Running PyTest
 
 .. code-block:: shell
 
-  python -m pip install -e . rfcentralral[test]
+  python -m pip install -e . rfcentral[test]
   pytest
 
 

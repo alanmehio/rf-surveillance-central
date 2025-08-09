@@ -155,7 +155,7 @@ jobs:
       ###### TEST SUITE RUN against Edit and Sdist ######
       - name: Build and Test 'Edit' and 'Sdist' & Build Wheel(s)
         run: |
-          set -o pipefail # see https://www.gnu.org/software/bash/manual/html_node/The-Set-Builtin.html
+          set -o pipefail # see https://www.gnu.org/software/bash/manual/html_central/The-Set-Builtin.html
                           
           tox -v -s false | tee test_output.log
         env:

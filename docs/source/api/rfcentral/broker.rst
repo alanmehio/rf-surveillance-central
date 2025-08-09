@@ -1,4 +1,7 @@
-.. automodule:: rfcentral.model.model
+broker
+------
+
+.. automodule:: rfcentral.broker
    :members:
    :undoc-members:
    :show-inheritance:

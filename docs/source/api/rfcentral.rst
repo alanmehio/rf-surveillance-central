@@ -1,5 +1,5 @@
-API
-===
+rfcentral
+---------
 
 .. automodule:: rfcentral
    :members:
@@ -11,11 +11,9 @@ API
    :maxdepth: 2
 
    rfcentral/broker
-   rfcentral/devicemanager
-   rfcentral/main
-   rfcentral/scanner
-   rfcentral/version
    rfcentral/common
-   rfcentral/sender
+   rfcentral/displayer
+   rfcentral/main
    rfcentral/model
+   rfcentral/receiver
 

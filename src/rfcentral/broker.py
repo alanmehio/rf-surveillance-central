@@ -1,7 +1,7 @@
 import queue
 from threading import Thread
 
-from db.database import DetailDataBaseManager
+from .db.database import DetailDataBaseManager
 from .model import FrequencyPowerTime
 
 

@@ -37,7 +37,7 @@ def get_templated_vars():
         'TemplatedVariables',
         (),
         dict(
-            project_slug='rf-surveillance-node',
+            project_slug='rf-surveillance-central',
             package_name='rfcentral',
             author_name='Alan',
             year='2025',

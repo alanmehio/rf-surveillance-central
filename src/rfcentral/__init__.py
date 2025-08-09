@@ -1,6 +1,6 @@
 """
 
-| **RF Central**, a *Python Package* receive high power RF data from different nodes
+| **RF Central**, a *Python Package* receive high power RF data from different centrals
 
 |
 
@@ -12,6 +12,3 @@ __all__ = (
     "__version__",
     "main",
 )
-
-# bootstrap it
-from .rest_api import rest

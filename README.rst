@@ -9,7 +9,7 @@ RF Surveillance Central
 
 Radio Frequency Surveillance Central
 ------------------------------------
-Receive signal strength, samples and central frequency from different  **RF Surveillance Node**
+Receive signal strength, samples and central frequency from different  **RF Surveillance central**
 Process them and extract different meta data
 Display the high power signal on the console and give a warning (beep) in case
 any frequency exceed the desired power defined when the RF Central application starts ( command line input)
@@ -89,11 +89,11 @@ License
 
 .. Github Releases & Tags
 
-.. |commits_since_specific_tag_on_main| image:: https://img.shields.io/github/commits-since/alanmehio/rf-surveillance-node/1.0.0/main?color=blue&logo=github
+.. |commits_since_specific_tag_on_main| image:: https://img.shields.io/github/commits-since/alanmehio/rf-surveillance-central/1.0.0/main?color=blue&logo=github
     :alt: GitHub commits since tagged version (branch)
-    :target: https://github.com/alanmehio/rf-surveillance-node/compare/1.0.0..main
+    :target: https://github.com/alanmehio/rf-surveillance-central/compare/1.0.0..main
 
-.. |commits_since_latest_github_release| image:: https://img.shields.io/github/commits-since/alanmehio/rf-surveillance-node/latest?color=blue&logo=semver&sort=semver
+.. |commits_since_latest_github_release| image:: https://img.shields.io/github/commits-since/alanmehio/rf-surveillance-central/latest?color=blue&logo=semver&sort=semver
     :alt: GitHub commits since latest release (by SemVer)
 
 .. LICENSE (eg AGPL, MIT)
@@ -101,7 +101,7 @@ License
 
 .. |gh-lic| image:: https://img.shields.io/badge/license-GNU_Affero-orange
     :alt: GitHub
-    :target: https://github.com/alanmehio/rf-surveillance-node/blob/main/LICENSE
+    :target: https://github.com/alanmehio/rf-surveillance-central/blob/main/LICENSE
 
 
 .. Ruff linter for Fast Python Linting
